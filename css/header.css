@@ -1,0 +1,54 @@
+.page-header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.page-header .container {
+  display: flex;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+
+.navigation {
+  margin-right: auto;
+}
+
+.page-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.page-nav .link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-list .link {
+  display: block;
+  padding: 24px 0;
+  font-style: normal;
+  color: var(--slate);
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus,
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--ocean);
+}
